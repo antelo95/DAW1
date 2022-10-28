@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Here we go again!</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Responde a las siguientes cuestiones</legend>
+        <div>
+            <p>Ingrese su nombre: <input type="text" name="nombre" size="30"></p>
+            <p>Ingrese su clave: 
+                <input type="password" name="clave1" size="12">
+                <br>
+                Repita el ingreso de su clave: 
+                <input type="password" name="clave2" size="12"></p>
+            <p>Ingrese su Curriculum:<br>
+            <textarea name="curriculum" rows="7" cols="80"></textarea></p>
+            <p>Introduce tu nº de teléfono:</p>
+            <input type="text" value="+34 - " name="telefono" size="15"><br>
+            <strong>Seleccione las películas a pedir:</strong>
+            <br>
+                <input type="checkbox" name="pelicula1">Batman y Robin<br>
+                <input type="checkbox" name="pelicula2">Superman regresa<br>
+                <input type="checkbox" name="pelicula3">Una película de miedo<br>
+                <input type="checkbox" name="pelicula4">La historia sin fin<br>
+            <p>¿Como definirias la relación con tu anterior jefe?<select name="voto">
+                <option value="1">Excelente</option>
+                <option value="1">Regulin</option>
+                <option value="1">Regular</option>      
+                <option value="1">Suspenso</option>      
+                <option value="1">Bien</option></select>
+            </p>
+            Seleccione el máximo nivel de estudios que tiene:
+            <br>
+            <input type="radio" name="estudios" value="1">Sin estudios<br>
+            <input type="radio" name="estudios" value="2">Primario<br>
+            <input type="radio" name="estudios" value="3">Secundario<br>
+            <input type="radio" name="estudios" value="4">Universitario<br>
+            <p><strong>¿Cuál es tu colo favorito?</strong></p>
+            <select name="colores[]" width="95" size="4" multiple>
+                <option value="1">Rojo</option>
+                <option value="2">Verde</option>
+                <option value="3">Azul</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Blanco</option>
+                <option value="6">Negro</option>
+                <option value="7">Naranja</option>
+                <option value="8">Violeta</option>
+            </select><br>
+            <strong>Seleccione la foto: </strong>
+            <input type="file" name="foto">
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+            <button type="reset">Borrar</button>
+        </div>
+        </fieldset>      
+    </form>
+    <audio src="La Bachata - MTZ Manuel Turizo (Letra_Lyrics)_lUO9lBtpHRs.mp3" controls loop></audio>
+    <video src="_Sa matao Paco_ - APM_ [Versión íntegra].mp4" controls></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cDphUib5iG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

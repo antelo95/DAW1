@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function msg(){
+            alert("Tu formulario ha sido guardado.");
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+    <table BORDER CELLPADDING="15" CELLSPACING="0">
+        <tr>
+            <td>
+                Nombre: <input type="text"><br>
+                Apellido Paterno: <input type="text"><br>
+                Apellido Materno: <input type="text"><br><br>
+                FOTO: <input type="text"><input type="file"><br>
+                Fecha de nacimiento: <br>
+                <input type="date" value="2020-10-10"><br>
+                sexo: <br>
+                <input type="radio" value="1" name="test">Hombre <br>
+                <input type="radio" value="2" name="test">Mujer
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Código: <input type="text"><br>
+                Password: <input type="password" name="" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Domicilio: <input type="text" name="" id=""><br>
+                Correo electrónico: <input type="email"><br>
+                Teléfono: <input type="number" name="" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Intereses: <br><br>
+                <input type="checkbox" name="" id="">Deportes <br>
+                <input type="checkbox" name="" id="">Cultura <br>
+                <input type="checkbox" name="" id="">Ciencia <br>
+                <input type="checkbox" name="" id="">Educación <br><br>
+                Conclusiones: <br><br>
+                Observaciones <br>
+                <textarea name="" placeholder="Anotaciones" id="" cols="30" rows="10"></textarea>
+                <button onclick="msg()">Guardar</button>
+                <input type="submit" value="Enviar">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
