@@ -1,0 +1,24 @@
+body{
+    background-color: yellow;
+}
+h1{
+    color: red;
+    font-family: Verdana;
+    font-size: 350%;
+    text-decoration: wavy;
+    transition: 1.8s;
+}
+h1:hover{
+    background-color: blue;
+    border-radius: 100%;
+    color: black;
+    font-size: 700%;
+    cursor: wait;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    text-decoration: underline;
+}
+.t{
+    color: aqua;
+}

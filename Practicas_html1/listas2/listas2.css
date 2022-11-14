@@ -1,0 +1,11 @@
+div{
+    background-color: blue;
+    padding: 11px;
+    padding-right: 13px;
+}
+li{
+    background-color: aqua;
+    padding: 0px;
+    margin: 6px;
+    padding-left: 1px;
+}
